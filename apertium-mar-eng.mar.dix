@@ -37,6 +37,7 @@
     <sdef n="pers"    c="Personal"/>
 
     <sdef n="cm"      c="Comma"/>
+    <sdef n="quot"    c="Quotation mark"/>
     <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
   <pardefs>
@@ -55,6 +56,9 @@
       <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
     </pardef>
 
+    <pardef n="quot">
+      <e><p><l>"</l><r>"<s n="quot"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Interjections -->
 
@@ -250,6 +254,7 @@
     <e><par n="numeros"/></e>
     <e><par n="coma"/></e>
     <e><par n="separa"/></e>
+    <e><par n="quot"/></e>
   </section>
 
 </dictionary>
