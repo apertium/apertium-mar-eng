@@ -6,6 +6,7 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="post"    c="Postposition"/>
+    <sdef n="ij"      c="Interjection"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
@@ -49,6 +50,13 @@
 
     <pardef n="coma">
       <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+
+    <!-- SECTION: Interjections -->
+
+    <pardef n="नाही__ij">
+      <e><p><l></l><r><s n="ij"/></r></p></e>
     </pardef>
 
 
@@ -205,11 +213,18 @@
 
     <!-- SECTION: Adverbs  -->
 
+    <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
     <e lm="आहे"><i></i><par n="/आहे__vbser"/></e>
+
+
+    <!-- SECTION: Interjections -->
+
+
+    <e lm="नाही"><i>नाही</i><par n="नाही__ij"/></e>
 
   </section>
 

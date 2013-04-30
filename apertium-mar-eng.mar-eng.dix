@@ -6,6 +6,7 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="post"    c="Postposition"/>
+    <sdef n="ij"      c="Interjection"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
     <sdef n="m"       c="Masculine · पु:लिंग"/>
@@ -58,6 +59,11 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>तिथे<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+    <e><p><l>नाही<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Interjections -->
+
+    <e><p><l>नाही<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
   </section>
