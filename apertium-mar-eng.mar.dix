@@ -38,12 +38,22 @@
 
     <!-- SECTION: Nouns -->
  
-    <pardef n="कुत्/ा__n_m"> 
-      <e><p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+    <pardef n="कुत्र/ा__n_m">
+      <e>       <p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e>       <p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>्याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>्याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e>       <p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="erg"/></r></p></e>
 
-      <e><p><l>याला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e>       <p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e>       <p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="erg"/></r></p></e>
     </pardef>
+
 
     <pardef n="घर__n_nt"> 
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -129,7 +139,7 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्/ा__n_m"/></e>
+    <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्र/ा__n_m"/></e>
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
     <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e>
 
