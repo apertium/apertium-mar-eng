@@ -14,7 +14,7 @@
 
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>
-    <sdef n="erg"     c="Ergative"/>
+    <sdef n="erg"     c="Ergative · तृतीय"/>
     <sdef n="dat"     c="Dative"/>
     <sdef n="abl"     c="Ablative"/>
     <sdef n="gen"     c="Genitive"/>
@@ -38,24 +38,24 @@
  
     <pardef n="बाग__n_f">  
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ेला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="erg"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ेला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="erg"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
 
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="abl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="f"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="nt"/></r></p></e>
-      <e><p><l>ेत</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ेत</l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="abl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="f"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="nt"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="loc"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -65,10 +65,33 @@
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="erg"/></r></p></e>
       <e><p><l>ाल</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+<!--
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/><s n="abl"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/><s n="loc"/></r></p></e>-->
     </pardef>
+
+
+
+    <pardef n="काजल__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l>ाल</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+<!--
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="abl"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="loc"/></r></p></e>-->
+    </pardef>
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs  -->
+
+    <!-- SECTION: Verbs -->
+
+
+
   </pardefs>
   <section id="main" type="standard">
 
@@ -76,6 +99,14 @@
 
     <e lm="आणि"><i>आणि</i><par n="आणि__cnjcoo"/></e>
  
+    <!-- SECTION: Postpositions -->
+
+    <!-- SECTION: Pronouns -->
+
+    <!-- SECTION: Determiners -->
+
+    <!-- SECTION: Numerals -->
+
     <!-- SECTION: Nouns -->
 
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
@@ -83,5 +114,14 @@
     <!-- SECTION: Proper nouns -->
 
     <e lm="राम"><i>राम</i><par n="राम__np"/></e>
+    <e lm="राहुल"><i>राहुल</i><par n="राम__np"/></e>
+
+    <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs  -->
+
+    <!-- SECTION: Verbs -->
   </section>
 </dictionary>
