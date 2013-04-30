@@ -27,8 +27,6 @@
     <e><p><l>कुत्रा<s n="n"/><s n="m"/></l><r>dog<s n="n"/></r></p></e>
     <e><p><l>घर<s n="n"/><s n="nt"/></l><r>house<s n="n"/></r></p></e>
     <e><p><l>घर<s n="n"/><s n="nt"/></l><r>home<s n="n"/></r></p></e>
-
-<!--
     <e><p><l>मुलगा<s n="n"/><s n="m"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>मुलगी<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
     <e><p><l>मांजर<s n="n"/><s n="f"/></l><r>cat<s n="n"/></r></p></e>
@@ -49,7 +47,7 @@
     <e><p><l>डोके<s n="n"/><s n="nt"/></l><r>head<s n="n"/></r></p></e>
     <e><p><l>वेळ<s n="n"/><s n="f"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>पाणी<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>
--->
+
 
 
     <!-- SECTION: Proper nouns -->

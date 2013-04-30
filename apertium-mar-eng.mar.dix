@@ -44,6 +44,12 @@
       <e><p><l>याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>याहून</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>यामधे</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+
+      <e><p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>यांहून</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>यांमधे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
     <pardef n="मांजर__n_f"> 
@@ -52,6 +58,12 @@
       <e><p><l>ीला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ीहून</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ीमधे</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>  
+
+      <e><p><l>ी</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ींना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ींना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ींहून</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ींमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e> 
     </pardef>
 
     <pardef n="घर__n_nt"> 
@@ -60,6 +72,12 @@
       <e><p><l>ातून</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+
+      <e><p><l>े</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ांत</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ांतून</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
 
     <pardef n="बाग__n_f">  
@@ -77,14 +95,23 @@
       <e><p><l>ांमधून</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ांमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
 
-
+<!--
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="f"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="nt"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="f"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="nt"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="nt"/></r></p></e>-->
 
+    </pardef>
+
+    <pardef n="मुल्/गा__n_m">
+      <e><p><l></l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e
+      <e><p><l>ाला</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ाहून</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ामधे</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -141,7 +168,7 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्/ा__n_m"/></e>
+    <e lm="कुत्रा"><i>कुत्रा</i><par n="कुत्/ा__n_m"/></e>
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
     <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e> 
     <e lm="मांजर"><i>मांजर</i><par n="मांजर__n_f"/></e>
