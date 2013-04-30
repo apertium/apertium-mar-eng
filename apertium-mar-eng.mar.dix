@@ -1,8 +1,9 @@
 <dictionary>
-  <alphabet>ऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ</alphabet>
+  <alphabet>ऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣं</alphabet>
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
+    <sdef n="adv"     c="Adverb"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
@@ -37,28 +38,33 @@
 
     <!-- SECTION: Nouns -->
  
+    <pardef n="घर__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    </pardef>
+
     <pardef n="बाग__n_f">  
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ेला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ेने</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="erg"/></r></p></e>
       <e><p><l>ेला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ेत</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="erg"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
 
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="abl"/></r></p></e>
+      <e><p><l>ा</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ांनी</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ांमधून</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ांमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+
+
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="f"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="nt"/></r></p></e>
-      <e><p><l>ेत</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <!--<e><p><l>ेत</l><r><s n="n"/><s n="f"/><s n="sg"/><j/>त<s n="post"/><s n="loc"/></r></p></e>-->
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="abl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="f"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="nt"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="loc"/></r></p></e>
+
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -91,8 +97,11 @@
 
     <!-- SECTION: Adverbs  -->
 
-    <!-- SECTION: Verbs -->
+    <pardef n="तिथे__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
 
+    <!-- SECTION: Verbs -->
 
 
   </pardefs>
@@ -113,6 +122,7 @@
     <!-- SECTION: Nouns -->
 
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
+    <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -124,6 +134,8 @@
     <!-- SECTION: Adjectives -->
 
     <!-- SECTION: Adverbs  -->
+
+    <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
 
     <!-- SECTION: Verbs -->
   </section>
