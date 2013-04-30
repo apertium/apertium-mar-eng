@@ -1,1 +1,3 @@
 * text=auto !eol
+dev/cuento.eng.txt -text
+dev/cuento.mar.txt -text svneol=unset#application/octet-stream
