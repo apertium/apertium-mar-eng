@@ -1,0 +1,33 @@
+<dictionary>
+  <alphabet/>
+
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+
+    <sdef n="m"       c="Masculine · पु:लिंग"/>
+    <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
+    <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
+
+    <sdef n="ant"     c="Anthroponym"/>
+
+  </sdefs>
+
+  <section id="main" type="standard">
+    <!-- SECTION: Conjunctions -->
+
+    <e><p><l>आणि<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+
+    <!-- SECTION: Nouns -->
+
+    <e><p><l>बाग<s n="n"/><s n="f"/></l><r>garden<s n="n"/></r></p></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e><p><l>राहुल<s n="np"/><s n="ant"/><s n="m"/></l><r>Rahul<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>काजल<s n="np"/><s n="ant"/><s n="f"/></l><r>Kajol<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <!-- SECTION: Punctuation -->
+  </section>
+</dictionary>

@@ -1,5 +1,6 @@
 * text=auto !eol
 /Makefile -text
+/apertium-mar-eng.mar-eng.dix -text
 /apertium-mar-eng.mar.dix -text
 dev/cuento.eng.txt -text
 dev/cuento.mar.txt -text svneol=unset#application/octet-stream
