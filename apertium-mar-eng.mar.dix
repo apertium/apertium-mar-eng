@@ -2,7 +2,7 @@
   <alphabet>ऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ</alphabet>
   <sdefs>
     <sdef n="n"       c="Noun"/>
-    <sdef n="cnjcoo"       c="Co-ordinating conjunction"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
     <sdef n="m"       c="Masculine · पु:लिंग"/>
     <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
@@ -24,9 +24,14 @@
     <sdef n="p3"      c="Third person · तृतिया पुरुष"/>
   </sdefs>
   <pardefs>
+
+    <!-- SECTION: Conjunctions -->
+
     <pardef n="आणि__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
+
+    <!-- SECTION: Nouns -->
  
     <pardef n="बाग__n_f">  
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
