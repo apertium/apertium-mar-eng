@@ -94,15 +94,6 @@
       <e><p><l>ांना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ांमधून</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ांमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-
-<!--
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="m"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="f"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><j/><s n="gen"/><s n="nt"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="m"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="f"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><j/><s n="gen"/><s n="nt"/></r></p></e>-->
-
     </pardef>
 
     <pardef n="मुल्/गा__n_m">
@@ -172,6 +163,7 @@
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
     <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e> 
     <e lm="मांजर"><i>मांजर</i><par n="मांजर__n_f"/></e>
+    <e lm="मुल्गा"><i>मुल्</i><par n="मुल्/गा__n_m"/></e>
 
     <!-- SECTION: Proper nouns -->
 
