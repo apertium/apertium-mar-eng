@@ -1,0 +1,46 @@
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+
+    <sdef n="m"       c="Masculine · पु:लिंग"/>
+    <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
+    <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
+
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="acc"     c="Accusative"/>
+    <sdef n="erg"     c="Ergative"/>
+    <sdef n="dat"     c="Dative"/>
+    <sdef n="abl"     c="Ablative"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="loc"     c="Locative"/>
+
+    <sdef n="p1"      c="First person · प्रथम पुरुष"/>
+    <sdef n="p2"      c="Second person · द्वितिया पुरुष"/>
+    <sdef n="p3"      c="Third person · तृतिया पुरुष"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="बाग__n_f">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
+  </section>
+</dictionary>
