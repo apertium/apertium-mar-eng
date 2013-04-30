@@ -5,6 +5,7 @@
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="num"     c="Numeral"/>
+    <sdef n="prn"     c="Pronoun"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
@@ -13,6 +14,7 @@
     <sdef n="m"       c="Masculine · पु:लिंग"/>
     <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
     <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
+    <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
 
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
@@ -32,6 +34,7 @@
     <sdef n="pres"    c="Present tense"/>
 
     <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="pers"    c="Personal"/>
 
     <sdef n="cm"      c="Comma"/>
     <sdef n="sent"    c="Sentence marker"/>
@@ -66,6 +69,17 @@
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Pronouns -->
+
+    <pardef n="मी__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="त/ू__prn">
+      <e><p><l>ू</l><r>ू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ुला</l><r>ू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ुला</l><r>ू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+    </pardef>
 
 
     <!-- SECTION: Nouns -->
@@ -189,6 +203,10 @@
     <!-- SECTION: Postpositions -->
 
     <!-- SECTION: Pronouns -->
+  
+    <e lm="मी"><i>मी</i><par n="मी__prn"/></e>
+    <e lm="तू"><i>त</i><par n="त/ू__prn"/></e>
+
 
     <!-- SECTION: Determiners -->
 
