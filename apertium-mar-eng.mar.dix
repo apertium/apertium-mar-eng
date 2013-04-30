@@ -4,7 +4,9 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="num"     c="Numeral"/>
     <sdef n="post"    c="Postposition"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
     <sdef n="m"       c="Masculine · पु:लिंग"/>
@@ -26,15 +28,37 @@
     <sdef n="p2"      c="Second person · द्वितिया पुरुष"/>
     <sdef n="p3"      c="Third person · तृतिया पुरुष"/>
 
+    <sdef n="pres"    c="Present tense"/>
+
     <sdef n="ant"     c="Anthroponym"/>
+
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
   <pardefs>
+
+    <!-- SECTION: Punctuation -->
+
+    <pardef n="numeros">
+      <e><re>[०१२३४५६७८९]+([.,][०१२३४५६७८९]+)?</re><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
+
+    <pardef n="separa">
+      <e><re>[.\?;:!।]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Conjunctions -->
 
     <pardef n="आणि__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
+
+
 
     <!-- SECTION: Nouns -->
  
@@ -98,7 +122,7 @@
     </pardef>
 
     <pardef n="मुल्/गा__n_m">
-      <e><p><l></l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>गा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ाला</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ाला</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ाहून</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
@@ -142,6 +166,10 @@
 
     <!-- SECTION: Verbs -->
 
+    <pardef n="/आहे__vbser">
+      <e><p><l>आहे</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>आहेत</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
 
   </pardefs>
   <section id="main" type="standard">
@@ -180,5 +208,15 @@
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
 
     <!-- SECTION: Verbs -->
+
+    <e lm="आहे"><i></i><par n="/आहे__vbser"/></e>
+
   </section>
+
+  <section id="final" type="inconditional">
+    <e><par n="numeros"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="separa"/></e>
+  </section>
+
 </dictionary>
