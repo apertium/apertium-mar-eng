@@ -15,6 +15,8 @@
 
     <sdef n="ant"     c="Anthroponym"/>
 
+    <sdef n="vb"      c="Verb"/>
+
   </sdefs>
 
   <section id="main" type="standard">
@@ -47,7 +49,17 @@
     <e><p><l>प्राणी<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
     <e><p><l>डोके<s n="n"/><s n="nt"/></l><r>head<s n="n"/></r></p></e>
     <e><p><l>वेळ<s n="n"/><s n="f"/></l><r>time<s n="n"/></r></p></e>
-    <e><p><l>पाणी<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>पाणी<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>   
+
+
+    <!--SECTION: Verbs -->
+
+    <e><p><l>विचार<s n="vb"/></l><r>ask<s n="vb"/></r></p></e>
+    <e><p><l>मोज<s n="vb"/></l><r>count<s n="vb"/></r></p></e>
+    <e><p><l>कर<s n="vb"/></l><r>do<s n="vb"/></r></p></e>
+    <e><p><l>खा<s n="vb"/></l><r>eat<s n="vb"/></r></p></e>
+    <e><p><l>शोध<s n="vb"/></l><r>find<s n="vb"/></r></p></e>
+    <e><p><l>संप<s n="vb"/></l><r>finish<s n="vb"/></r></p></e>
 
 
 
