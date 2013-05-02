@@ -187,7 +187,7 @@
   
     <pardef n="मोठ्/ा__adj">
       <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ी</l><r>ी<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ी</l><r>ी<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>े</l><r>े<s n="adj"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>या</l><r>या<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
