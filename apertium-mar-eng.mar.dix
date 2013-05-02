@@ -4,6 +4,7 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective . विशेषण"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="post"    c="Postposition"/>
@@ -183,6 +184,13 @@
     </pardef>
 
     <!-- SECTION: Adjectives -->
+  
+    <pardef n="मोठ्/ा__adj">
+      <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ी</l><r>ी<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>े</l><r>े<s n="adj"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>या</l><r>या<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Adverbs  -->
 
@@ -232,6 +240,8 @@
     <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
 
     <!-- SECTION: Adjectives -->
+
+    <e lm="मोठा"><i>मोठ्</i><par n="मोठ्/ा__adj"/></e>
 
     <!-- SECTION: Adverbs  -->
 
