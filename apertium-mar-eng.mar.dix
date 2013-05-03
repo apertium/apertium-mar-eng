@@ -20,7 +20,7 @@
 
     <sdef n="sg"      c="Singular . एकवचन"/>
     <sdef n="pl"      c="Plural . अनेकवचन"/>
-    <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन">
+    <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
 
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>
