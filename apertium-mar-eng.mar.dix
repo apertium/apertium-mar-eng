@@ -92,7 +92,7 @@
 
     <!-- SECTION: Nouns -->
  
-    <pardef n="कुत्र/ा__n_m">
+    <pardef n="कुत्र्/ा__n_m">
 
       <e><p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -166,7 +166,7 @@
          
     </pardef>
 
-    <pardef n="मुल्/ागी__n_m">
+    <pardef n="मुल्/ागी__n_f">
       <e><p><l>ागी</l><r>ागी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ीला</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ीला</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -294,14 +294,14 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="कुत्रा"><i>कुत्</i><par n="कुत्/ा__n_m"/></e>
+    <e lm="कुत्रा"><i>कुत्र्</i><par n="कुत्र्/ा__n_m"/></e>
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
     <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e> 
     <e lm="मांजर"><i>मांजर</i><par n="मांजर__n_f"/></e>
     <e lm="मुलगा"><i>मुल्</i><par n="मुल्/ागा__n_m"/></e>
     <e lm="मुलगी"><i>मुल्</i><par n="मुल्/ागी__n_f"/></e>
     <e lm="बहीण"><i>बहीण</i><par n="बहीण__n_f"/></e>
-    <e lm="आई"><i>आई</i><par n="आ/ई__n_f">
+    <e lm="आई"><i>आई</i><par n="आ/ई__n_f"/></e>
 
     <!-- SECTION: Proper nouns -->
 
