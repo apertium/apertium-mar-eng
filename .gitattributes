@@ -1,6 +1,14 @@
 * text=auto !eol
 /Makefile -text
+/apertium-mar-eng.eng.dix -text
 /apertium-mar-eng.mar-eng.dix -text
+/apertium-mar-eng.mar-eng.lrx -text
+/apertium-mar-eng.mar-eng.t1x -text
+/apertium-mar-eng.mar-eng.t2x -text
+/apertium-mar-eng.mar-eng.t3x -text
 /apertium-mar-eng.mar.dix -text
+/apertium-mar-eng.post-eng.dix -text
 dev/cuento.eng.txt -text
 dev/cuento.mar.txt -text svneol=unset#application/octet-stream
+/mar-eng.prob -text
+/modes.xml -text

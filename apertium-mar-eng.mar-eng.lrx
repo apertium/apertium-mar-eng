@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="आई" tags="n.*"><select lemma="mother" tags="n.*"/></match>
+  </rule>
+</rules>
