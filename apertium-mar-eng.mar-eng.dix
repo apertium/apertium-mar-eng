@@ -18,6 +18,7 @@
     <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
 
     <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="itg"     c="Interrogative"/>
 
     <sdef n="vb"      c="Verb"/>
 
@@ -75,6 +76,8 @@
 
     <!-- SECTION: Adverbs -->
 
+
+    <e><p><l>कुठे<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>तिथे<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
     <e><p><l>नाही<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
 

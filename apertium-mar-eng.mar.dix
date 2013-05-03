@@ -38,6 +38,7 @@
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="pers"    c="Personal"/>
+    <sdef n="itg"     c="Interrogative"/>
 
     <sdef n="cm"      c="Comma"/>
     <sdef n="quot"    c="Quotation mark"/>
@@ -210,6 +211,10 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="कुठे__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Verbs -->
 
     <pardef n="/आहे__vbser">
@@ -259,6 +264,8 @@
      
 
     <!-- SECTION: Adverbs  -->
+
+    <e lm="कुठे"><i>कुठे</i><par n="कुठे__adv"/></e>
 
     <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
