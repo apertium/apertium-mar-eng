@@ -204,12 +204,6 @@
       <e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
     </pardef>
 
-    <pardef n="जुन्/ा__adj">
-      <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ी</l><r>ा<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="sp"/></r></p></e>
-    </pardef>
-
     <!-- SECTION: Adverbs  -->
 
     <pardef n="तिथे__adv">
