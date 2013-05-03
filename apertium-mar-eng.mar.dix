@@ -174,18 +174,18 @@
       <e><p><l>ीमधे</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 
       <e><p><l>ी</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ींना</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ींना</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ींहून</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
-      <e><p><l>ींमधे</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ींना</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ींना</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ींहून</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ींमधे</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
          
     </pardef>
 
 
     <pardef n="बहीण__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ीला</l><r<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ीला</l><r<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ीला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ीला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ीहून</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ीमधे</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 
@@ -196,6 +196,23 @@
       <e><p><l>ींमधे</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
          
     </pardef>
+
+    <pardef n="आ/ई__n_f">
+      <e><p><l></l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ईला</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ईला</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ईहून</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ईमधे</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+
+      <e><p><l>या</l><r>या<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>यांना</l><r>या<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>यांना</l><r>या<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>यांहून</l><r>या<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>यांमधे</l><r>या<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+         
+    </pardef>
+
+    
     <!-- SECTION: Proper nouns -->
 
     <pardef n="राम__np">
@@ -284,6 +301,7 @@
     <e lm="मुलगा"><i>मुल्</i><par n="मुल्/ागा__n_m"/></e>
     <e lm="मुलगी"><i>मुल्</i><par n="मुल्/ागी__n_f"/></e>
     <e lm="बहीण"><i>बहीण</i><par n="बहीण__n_f"/></e>
+    <e lm="आई"><i>आई</i><par n="आ/ई__n_f">
 
     <!-- SECTION: Proper nouns -->
 
