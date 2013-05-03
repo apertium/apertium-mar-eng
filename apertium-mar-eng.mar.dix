@@ -1,7 +1,7 @@
 <dictionary>
   <alphabet>ऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣं</alphabet>
   <sdefs>
-    <sdef n="n"       c="Noun"/>
+    <sdef n="n"       c="Noun . नाम"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="adj"     c="Adjective . विशेषण"/>
@@ -17,8 +17,8 @@
     <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
     <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
 
-    <sdef n="sg"      c="Singular"/>
-    <sdef n="pl"      c="Plural"/>
+    <sdef n="sg"      c="Singular . एकवचन"/>
+    <sdef n="pl"      c="Plural . अनेकवचन"/>
 
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>
@@ -29,10 +29,10 @@
     <sdef n="loc"     c="Locative"/>
 
     <sdef n="p1"      c="First person · प्रथम पुरुष"/>
-    <sdef n="p2"      c="Second person · द्वितिया पुरुष"/>
-    <sdef n="p3"      c="Third person · तृतिया पुरुष"/>
+    <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
+    <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
 
-    <sdef n="pres"    c="Present tense"/>
+    <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="pers"    c="Personal"/>
@@ -148,13 +148,19 @@
       <e><p><l>ांमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
-    <pardef n="मुल्/गा__n_m">
-      <e><p><l>गा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ाला</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ाला</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ाहून</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
-      <e><p><l>ामधे</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-      
+    <pardef n="मुल्/ागा__n_m">
+      <e><p><l>ागा</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ाला</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ाहून</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ामधे</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+
+      <e><p><l>े</l><r>े<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ांना</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ांना</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ांहून</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ांमधे</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+         
     </pardef>
 
     <!-- SECTION: Proper nouns -->
