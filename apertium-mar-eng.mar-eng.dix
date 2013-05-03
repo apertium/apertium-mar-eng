@@ -7,6 +7,9 @@
     <sdef n="np"      c="Proper noun"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="Sentence"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
     <sdef n="m"       c="Masculine · पु:लिंग"/>
@@ -54,6 +57,7 @@
 
     <!--SECTION: Verbs -->
 
+    <e><p><l>आहे<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>विचार<s n="vb"/></l><r>ask<s n="vb"/></r></p></e>
     <e><p><l>मोज<s n="vb"/></l><r>count<s n="vb"/></r></p></e>
     <e><p><l>कर<s n="vb"/></l><r>do<s n="vb"/></r></p></e>
@@ -77,6 +81,9 @@
 
     <e><p><l>नाही<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
 
-    <!-- SECTION: Punctuation -->
+    <!-- SECTION: Punctuation-->
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
   </section>
 </dictionary>
