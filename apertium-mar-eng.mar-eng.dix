@@ -6,6 +6,7 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="post"    c="Postposition"/>
+    <sdef n="prn"     c="Pronoun"/>
     <sdef n="ij"      c="Interjection"/>
     <sdef n="cm"      c="Comma"/>
     <sdef n="quot"    c="Quote mark"/>
@@ -19,8 +20,15 @@
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="itg"     c="Interrogative"/>
+    <sdef n="pers"    c="Personal"/>
+
+    <sdef n="p1"      c="First person · प्रथम पुरुष"/>
+    <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
+    <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
 
     <sdef n="vb"      c="Verb"/>
+
+    <sdef n="FD"      c="Function to be determined"/>
 
   </sdefs>
 
@@ -29,6 +37,11 @@
 
     <e><p><l>आणि<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
 
+    <!-- SECTION: Proper nouns -->
+
+    <e><p><l>मी<s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
+    <e><p><l>तू<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+ 
     <!-- SECTION: Nouns -->
 
     <e><p><l>बाग<s n="n"/><s n="f"/></l><r>garden<s n="n"/></r></p></e>
