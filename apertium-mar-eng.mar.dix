@@ -16,9 +16,11 @@
     <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
     <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
     <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
+    <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
 
     <sdef n="sg"      c="Singular . एकवचन"/>
     <sdef n="pl"      c="Plural . अनेकवचन"/>
+    <sdef n="sp"      c="Singular / Pural . एकवचन / अनेकवचन">
 
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>
