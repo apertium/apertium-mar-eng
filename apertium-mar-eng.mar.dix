@@ -198,7 +198,7 @@
     </pardef>
 
     <pardef n="आ/ई__n_f">
-      <e><p><l></l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ईला</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ईला</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ईहून</l><r>ई<s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
