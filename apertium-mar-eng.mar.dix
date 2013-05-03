@@ -153,16 +153,31 @@
 
     <pardef n="मुल्/ागा__n_m">
       <e><p><l>ागा</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ाला</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ाला</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ाहून</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
-      <e><p><l>ामधे</l><r>ागा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ाला</l><r>ागा<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r>ागा<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ाहून</l><r>ागा<s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ामधे</l><r>ागा<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 
       <e><p><l>े</l><r>े<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ांना</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ांना</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ांहून</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ांमधे</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+         
+    </pardef>
+
+    <pardef n="मुल्/ागी__n_m">
+      <e><p><l>ागी</l><r>ागी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ीला</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ीला</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ीहून</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ीमधे</l><r>ागी<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+
+      <e><p><l>ी</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ींना</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ींना</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ींहून</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ींमधे</l><rी<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
          
     </pardef>
 
