@@ -8,6 +8,7 @@
     <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
     <sdef n="cm"      c="Comma"/>
+    <sdef n="quot"    c="Quote mark"/>
     <sdef n="sent"    c="Sentence"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
@@ -83,6 +84,7 @@
 
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>"<s n="quot"/></l><r>parquote<s n="quot"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
   </section>
