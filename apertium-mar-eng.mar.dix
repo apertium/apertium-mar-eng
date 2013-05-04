@@ -6,7 +6,7 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="adj"     c="Adjective . विशेषण"/>
     <sdef n="num"     c="Numeral"/>
-    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="prn"     c="Pronoun . सर्वनाम"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
