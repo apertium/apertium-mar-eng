@@ -200,5 +200,36 @@
       </program>
     </pipeline>
   </mode>
+ 
+  <mode name="mar-eng-debug" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="mar-eng.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="mar-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="mar-eng.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -b">
+        <file name="apertium-mar-eng.mar-eng.t1x"/>
+        <file name="mar-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mar-eng.mar-eng.t2x"/>
+        <file name="mar-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-mar-eng.mar-eng.t3x"/>
+        <file name="mar-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="mar-eng.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 </modes>
