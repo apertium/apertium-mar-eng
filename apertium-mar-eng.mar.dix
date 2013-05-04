@@ -35,6 +35,7 @@
     <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
 
     <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
+    <sdef n="past"    c="Past tense . भूतकाळ"/>
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="pers"    c="Personal"/>
@@ -268,10 +269,20 @@
 
     <!-- SECTION: Verbs -->
 
-    <pardef n="/आहे__vbser">
+    <pardef n="आहे__vbser">
       <e><p><l>आहे</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>होता</l><r>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>होते</l><r>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>आहेत</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="विचार/__vbser">
+      <e><p><l>तो</l><r>णे<s n="vbser"/><s n="m"><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vbser"/><s n="f"><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vbser"/><s n="nt"><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ले</l><r>णे<s n="vbser"/><s n="mfn"><s n="past"/><s n="p3"/><s n="sp"/></r></p></e>
+    </pardef>
+
 
   </pardefs>
   <section id="main" type="standard">
@@ -307,7 +318,6 @@
 
     <e lm="राम"><i>राम</i><par n="राम__np"/></e>
     <e lm="राहुल"><i>राहुल</i><par n="राम__np"/></e>
-
     <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
 
     <!-- SECTION: Adjectives -->
@@ -326,8 +336,13 @@
 
     <!-- SECTION: Verbs -->
 
-    <e lm="आहे"><i></i><par n="/आहे__vbser"/></e>
-
+    <e lm="आहे"><i>आहे</i><par n="आहे__vbser"/></e>
+    <e lm="विचारणे"><i>विचार</i><par n="विचार/__vbser"></e>
+    <e lm="मोजणे"><i>मोज</i><par n="विचार/__vbser"></e>
+    <e lm="करणे"><i>कर</i><par n="विचार/__vbser"></e>
+    <e lm="खाणे"><i>खा</i><par n="विचार/__vbser"></e>
+    <e lm="शोधणे"><i>शोध</i><par n="विचार/__vbser"></e>
+    <e lm="संपणे"><i>संप</i><par n="विचार/__vbser"></e>
 
     <!-- SECTION: Interjections -->
 
