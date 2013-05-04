@@ -42,8 +42,14 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>मी<s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
-    <e><p><l>तू<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>मी<s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="sg"/><s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
+    <e><p><l>तू<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>आम्ही<s n="prn"/><s n="pers"/><s n="p2"/></l><r>we<s n="pl"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>तो<s n="prn"/><s n="pers"/><s n="p2"/></l><r>he<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>ती<s n="prn"/><s n="pers"/><s n="p2"/></l><r>she<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>ते<s n="prn"/><s n="pers"/><s n="p2"/></l><r>it<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>ते<s n="prn"/><s n="pers"/><s n="p2"/></l><r>they<s n="pl"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    
 
     <!-- SECTION: Nouns -->
 
@@ -74,7 +80,8 @@
     <e><p><l>पाणी<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>
     <e><p><l>आज<s n="n"/><s n="nt"/></l><r>today<s n="n"/></r></p></e>
     <e><p><l>काल<s n="n"/><s n="nt"/></l><r>yesterday<s n="n"/></r></p></e>
-    <e><p><l>वातावरण<s n="n"/><s n="nt"/></l><r>weather<s n="n"/></r></p></e> 
+    <e><p><l>वातावरण<s n="n"/><s n="nt"/></l><r>weather<s n="n"/></r></p></e>
+    <e><p><l>बाहेर<s n="n"/><s n="nt"/></l><r>outside<s n="n"/></r></p></e>
     
 
     <!-- SECTION: Proper nouns -->
@@ -89,6 +96,7 @@
     <e><p><l>जुना<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
     <e><p><l>खूप<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
     <e><p><l>गरम<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
+    <e><p><l>थंड<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -109,7 +117,8 @@
     <e><p><l>खाणे<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
     <e><p><l>शोधणे<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>संपणे<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
-
+    <e><p><l>शकणे<s n="vblex"/></l><r>able<s n="vblex"/></r></p></e>
+    <e><p><l>आवडणे<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
 
       
     <!-- SECTION: Interjections -->

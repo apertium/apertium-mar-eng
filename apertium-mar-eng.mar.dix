@@ -9,7 +9,10 @@
     <sdef n="prn"     c="Pronoun . सर्वनाम"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
+
     <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="vblex"   c="Verb . क्रियापद"/>
+
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
     <sdef n="m"       c="Masculine · पु:लिंग"/>
@@ -91,7 +94,32 @@
       <e><p><l>ुला</l><r>ू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
     </pardef>
 
+    <pardef n="त/ो__prn">
+      <e><p><l>ो</l><r>ो<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>्याला</l><r>ो<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>्याला</l><r>ो<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+    </pardef>
 
+    <pardef n="त/ी__prn">
+      <e><p><l>ी</l><r>ी<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>्ीला</l><r>ी<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>्ीला</l><r>ी<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+    </pardef>
+
+    <pardef n="त/े__prn">
+      <e><p><l>ो</l><r>े<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>्यांना</l><r>े<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>्यांना</l><r>े<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+    </pardef>
+
+    <pardef n="त/े__prn">
+      <e><p><l>ो</l><r>ो<s n="prn"/><s n="pers"/><s n="p2"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>्याला</l><r>ो<s n="prn"/><s n="pers"/><s n="p2"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>्याला</l><r>ो<s n="prn"/><s n="pers"/><s n="p2"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    </pardef>
+
+
+    
     <!-- SECTION: Nouns -->
  
     <pardef n="कुत्र/ा__n_m">
@@ -297,6 +325,7 @@
       <e><p><l>च्या</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
     
+    
     <!-- SECTION: Proper nouns -->
 
     <pardef n="राम__np">
@@ -368,10 +397,10 @@
       <e><p><l>त</l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="विचार/णे__vbser">
-      <e><p><l>तो</l><r>णे<s n="vbser"/><s n="m"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ते</l><r>णे<s n="vbser"/><s n="f"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>तात</l><r>णे<s n="vbser"/><s n="nt"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    <pardef n="विचार/णे__vblex">
+      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="m"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="f"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="nt"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -388,6 +417,10 @@
   
     <e lm="मी"><i>मी</i><par n="मी__prn"/></e>
     <e lm="तू"><i>त</i><par n="त/ू__prn"/></e>
+    <e lm="तो"><i>त</i><par n="त/ो__prn"/></e>
+    <e lm="ती"><i>त</i><par n="त/ी__prn"/></e>
+    <e lm="ते"><i>त</i><par n="त/े__prn"/></e>
+    <e lm="ते"><i>त</i><par n="त/े__prn"/></e>   
 
 
     <!-- SECTION: Determiners -->
@@ -416,7 +449,8 @@
     <e lm="प्राणी"><i>प्राण्</i><par n="पक्ष््/ी__n_m"/></e>
     <e lm="आज"><i>आज</i><par n="आज__n"/></e>
     <e lm="वातावरण"><i>वातावरण</i><par n="घर__n_nt"/></e>
-    <e lm="काल"><i>काल</i><par n="आज__n"/></e>
+    <e lm="काल"><i>काल</i><par n="आज__n"/></e>बाहेर
+    <e lm="बाहेर"><i>बाहेर</i><par n="आज__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -431,7 +465,7 @@
     <e lm="जुना"><i>जुन्</i><par n="मोठ्/ा__adj"/></e>
     <e lm="खूप"><i>खूप</i><par n="खूप__adj"/></e>
     <e lm="गरम"><i>गरम</i><par n="गरम__adj"/></e>
-     
+    <e lm="थंड"><i>थंड</i><par n="गरम__adj"/></e> 
 
     <!-- SECTION: Adverbs  -->
 
@@ -443,12 +477,12 @@
     <!-- SECTION: Verbs -->
 
     <e lm="आहे"><i>आहे</i><par n="आहे/__vbser"/></e>
-    <e lm="विचारणे"><i>विचार</i><par n="विचार/णे__vbser"/></e>
-    <e lm="मोजणे"><i>मोज</i><par n="विचार/णे__vbser"/></e>
-    <e lm="करणे"><i>कर</i><par n="विचार/णे__vbser"/></e>
-    <e lm="खाणे"><i>खा</i><par n="विचार/णे__vbser"/></e>
-    <e lm="शोधणे"><i>शोध</i><par n="विचार/णे__vbser"/></e>
-    <e lm="संपणे"><i>संप</i><par n="विचार/णे__vbser"/></e>
+    <e lm="विचारणे"><i>विचार</i><par n="विचार/णे__vblex"/></e>
+    <e lm="मोजणे"><i>मोज</i><par n="विचार/णे__vblex"/></e>
+    <e lm="करणे"><i>कर</i><par n="विचार/णे__vblex"/></e>
+    <e lm="खाणे"><i>खा</i><par n="विचार/णे__vblex"/></e>
+    <e lm="शोधणे"><i>शोध</i><par n="विचार/णे__vblex"/></e>
+    <e lm="संपणे"><i>संप</i><par n="विचार/णे__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 
