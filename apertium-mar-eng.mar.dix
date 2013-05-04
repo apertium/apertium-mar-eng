@@ -94,19 +94,19 @@
 
     <!-- SECTION: Nouns -->
  
-    <pardef n="कुत्र्/ा__n_m">
+    <pardef n="कुत्र/ा__n_m">
 
       <e><p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>याहून</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
-      <e><p><l>यामधे</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>्याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>्याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>्याहून</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>्यामधे</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
 
       <e><p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>यांहून</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
-      <e><p><l>यांमधे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>्यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>्यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>्यांहून</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>्यांमधे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
     <pardef n="मांजर__n_f"> 
@@ -241,6 +241,61 @@
       <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
 
+    <pardef n="व्यक्ती__n_f">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sp"/><s n="nom"/></r></p></e>
+      <e><p><l>ला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>तून</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>मधे</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      
+      <e><p><l>ींना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ींना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ींमधून</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ींमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>    
+    </pardef>
+
+   
+    <pardef n="आवाज__n_m"> 
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ात</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ातून</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ाला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ांत</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ांतून</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+    </pardef>
+
+    <pardef n="पक्ष््/ी__n_m"> 
+      <e><p><l></l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>यात</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>यातून</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>याला</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>याला</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+
+      <e><p><l></l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>यांत</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>यांतून</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>यांना</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>यांना</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+    </pardef>
+
+    <pardef n="आज__n"> 
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>चा</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>च्या</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>चे</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>च्या</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+    </pardef>
     
     <!-- SECTION: Proper nouns -->
 
@@ -285,6 +340,15 @@
        <e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="खूप__adj">
+       <e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="गरम__adj">
+       <e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+    </pardef>
+
+
     <!-- SECTION: Adverbs  -->
 
     <pardef n="तिथे__adv">
@@ -297,14 +361,14 @@
 
     <!-- SECTION: Verbs -->
 
-    <pardef n="आहे__vbser">
-      <e><p><l>आहे</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>होता</l><r>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>होते</l><r>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>आहेत</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    <pardef n="आहे/__vbser">
+      <e><p><l></l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>होता</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>होते</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>त</l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="विचार/__vbser">
+    <pardef n="विचार/णे__vbser">
       <e><p><l>तो</l><r>णे<s n="vbser"/><s n="m"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ते</l><r>णे<s n="vbser"/><s n="f"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>तात</l><r>णे<s n="vbser"/><s n="nt"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -332,7 +396,7 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="कुत्रा"><i>कुत्र्</i><par n="कुत्र्/ा__n_m"/></e>
+    <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्र/ा__n_m"/></e>
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
     <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e> 
     <e lm="मांजर"><i>मांजर</i><par n="मांजर__n_f"/></e>
@@ -346,6 +410,13 @@
     <e lm="खेळ"><i>खेळ</i><par n="हात__n_m"/></e>
     <e lm="उत्तर"><i>उत्तर</i><par n="घर__n_nt"/></e>
     <e lm="प्रश्न"><i>प्रश्न</i><par n="हात__n_m"/></e>
+    <e lm="व्यक्ती"><i>व्यक्ती</i><par n="व्यक्ती__n_f"/></e>
+    <e lm="आवाज"><i>आवाज</i><par n="आवाज__n_m"/></e>
+    <e lm="पक्षी"><i>पक्ष््</i><par n="पक्ष््/ी__n_m"/></e>
+    <e lm="प्राणी"><i>प्राण्</i><par n="पक्ष््/ी__n_m"/></e>
+    <e lm="आज"><i>आज</i><par n="आज__n"/></e>
+    <e lm="वातावरण"><i>वातावरण</i><par n="घर__n_nt"/></e>
+    <e lm="काल"><i>काल</i><par n="आज__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -358,6 +429,8 @@
     <e lm="मोठा"><i>मोठ्</i><par n="मोठ्/ा__adj"/></e>
     <e lm="छान"><i>छान</i><par n="छान__adj"/></e>
     <e lm="जुना"><i>जुन्</i><par n="मोठ्/ा__adj"/></e>
+    <e lm="खूप"><i>खूप</i><par n="खूप__adj"/></e>
+    <e lm="गरम"><i>गरम</i><par n="गरम__adj"/></e>
      
 
     <!-- SECTION: Adverbs  -->
@@ -369,13 +442,13 @@
 
     <!-- SECTION: Verbs -->
 
-    <e lm="आहे"><i>आहे</i><par n="आहे__vbser"/></e>
-    <e lm="विचारणे"><i>विचार</i><par n="विचार/__vbser"/></e>
-    <e lm="मोजणे"><i>मोज</i><par n="विचार/__vbser"/></e>
-    <e lm="करणे"><i>कर</i><par n="विचार/__vbser"/></e>
-    <e lm="खाणे"><i>खा</i><par n="विचार/__vbser"/></e>
-    <e lm="शोधणे"><i>शोध</i><par n="विचार/__vbser"/></e>
-    <e lm="संपणे"><i>संप</i><par n="विचार/__vbser"/></e>
+    <e lm="आहे"><i>आहे</i><par n="आहे/__vbser"/></e>
+    <e lm="विचारणे"><i>विचार</i><par n="विचार/णे__vbser"/></e>
+    <e lm="मोजणे"><i>मोज</i><par n="विचार/णे__vbser"/></e>
+    <e lm="करणे"><i>कर</i><par n="विचार/णे__vbser"/></e>
+    <e lm="खाणे"><i>खा</i><par n="विचार/णे__vbser"/></e>
+    <e lm="शोधणे"><i>शोध</i><par n="विचार/णे__vbser"/></e>
+    <e lm="संपणे"><i>संप</i><par n="विचार/णे__vbser"/></e>
 
     <!-- SECTION: Interjections -->
 

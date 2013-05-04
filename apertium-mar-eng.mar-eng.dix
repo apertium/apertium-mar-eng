@@ -20,6 +20,9 @@
     <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
     <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
 
+    <sdef n="sg"      c="Singular . एकवचन"/>
+    <sdef n="pl"      c="Plural . अनेकवचन"/>
+
     <sdef n="p1"      c="1st person"/>
     <sdef n="p2"      c="2nd person"/>
     <sdef n="p3"      c="3rd person"/>
@@ -60,7 +63,7 @@
     <e><p><l>खेळ<s n="n"/><s n="m"/></l><r>game<s n="n"/></r></p></e>
     <e><p><l>उत्तर<s n="n"/><s n="nt"/></l><r>answer<s n="n"/></r></p></e>
     <e><p><l>प्रश्न<s n="n"/><s n="m"/></l><r>question<s n="n"/></r></p></e>
-    <e><p><l>व्यक्ति<s n="n"/><s n="f"/></l><r>person<s n="n"/></r></p></e>
+    <e><p><l>व्यक्ती<s n="n"/><s n="f"/></l><r>person<s n="n"/></r></p></e>
     <e><p><l>मेज<s n="n"/><s n="nt"/></l><r>table<s n="n"/></r></p></e>
     <e><p><l>खुर्ची<s n="n"/><s n="f"/></l><r>chair<s n="n"/></r></p></e>
     <e><p><l>आवाज<s n="n"/><s n="m"/></l><r>sound<s n="n"/></r></p></e>
@@ -68,8 +71,11 @@
     <e><p><l>प्राणी<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
     <e><p><l>डोके<s n="n"/><s n="nt"/></l><r>head<s n="n"/></r></p></e>
     <e><p><l>वेळ<s n="n"/><s n="f"/></l><r>time<s n="n"/></r></p></e>
-    <e><p><l>पाणी<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>   
-
+    <e><p><l>पाणी<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>आज<s n="n"/><s n="nt"/></l><r>today<s n="n"/></r></p></e>
+    <e><p><l>काल<s n="n"/><s n="nt"/></l><r>yesterday<s n="n"/></r></p></e>
+    <e><p><l>वातावरण<s n="n"/><s n="nt"/></l><r>weather<s n="n"/></r></p></e> 
+    
 
     <!-- SECTION: Proper nouns -->
 
@@ -80,6 +86,9 @@
     
     <e><p><l>छान<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
     <e><p><l>मोठा<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+    <e><p><l>जुना<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
+    <e><p><l>खूप<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
+    <e><p><l>गरम<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -91,7 +100,9 @@
 
     <!--SECTION: Verbs -->
 
-    <e><p><l>आहे<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>असणे<s n="vbser"/></l><r>be<s n="vbser"/><s n="sg"/></r></p></e>
+    <e><p><l>आहे<s n="vbser"/></l><r>is<s n="vbser"/><s n="sg"/></r></p></e>
+    <e><p><l>आहेत<s n="vbser"/></l><r>are<s n="vbser"/><s n="pl"/></r></p></e>
     <e><p><l>विचारणे<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
     <e><p><l>मोजणे<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
     <e><p><l>करणे<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
