@@ -8,6 +8,7 @@
     <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
     <sdef n="cm"      c="Comma"/>
+    <sdef n="preadv"  c="Pre-adverb"/>
     <sdef n="quot"    c="Quote mark"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="sent"    c="Sentence"/>
@@ -91,7 +92,7 @@
     <e><p><l>बाहेर<s n="n"/><s n="nt"/></l><r>outside<s n="n"/></r></p></e>
     <e><p><l>वर्ष<s n="n"/><s n="nt"/></l><r>year<s n="n"/></r></p></e>
     <e><p><l>एकत्र<s n="n"/><s n="nt"/></l><r>together<s n="n"/></r></p></e>
-    <e><p><l>सध्या<s n="n"/><s n="nt"/></l><r>now<s n="n"/></r></p></e>
+
 
     
     <!-- SECTION: Proper nouns -->
@@ -110,23 +111,23 @@
     <e><p><l>थंड<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
 
     <e><p><l>फार<s n="adj"/></l><r>much<s n="adj"/></r></p></e>
-    <e><p><l>खूप<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
+
     <e><p><l>लहान<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
     
 
 
     <!-- SECTION: Adverbs -->
 
+    <e><p><l>खूप<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e>
+
     <e><p><l>कुठे<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>तिथे<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
     <e><p><l>नाही<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
-
+    <e><p><l>सध्या<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
 
     <!--SECTION: Verbs -->
 
-    <e><p><l>असणे<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
-    <e><p><l>आहे<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
-    <e><p><l>आहेत<s n="vbser"/></l><r>are<s n="vbser"/></r></p></e>
+    <e><p><l>आहे<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>विचारणे<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
     <e><p><l>मोजणे<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
     <e><p><l>करणे<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
