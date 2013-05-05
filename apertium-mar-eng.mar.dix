@@ -74,8 +74,7 @@
     <!-- SECTION: Interjections -->
 
     <pardef n="नाही/__ij">
-      <e><p><l></l><r><s n="ij"/><s n="sg"/><s n="pres"/></r></p></e>
-      <e><p><l>त</l><r><s n="ij"/><s n="pl"/><s n="pres"/></r></p></e>
+      <e><p><l></l><r><s n="ij"/></r></p></e>
     </pardef>
 
 
