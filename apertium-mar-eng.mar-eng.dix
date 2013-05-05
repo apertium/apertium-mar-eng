@@ -27,6 +27,8 @@
     <sdef n="p2"      c="2nd person"/>
     <sdef n="p3"      c="3rd person"/>
 
+    <sdef n="num"      c="numbers"/>
+
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="itg"     c="Interrogative"/>
 
@@ -39,12 +41,16 @@
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>आणि<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>पण<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>कडे<s n="cnjcoo"/></l><r>with<s n="cnjcoo"/></r></p></e>
+    <e><p><l>किंवा<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
     <e><p><l>मी<s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="sg"/><s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
     <e><p><l>तू<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>आम्ही<s n="prn"/><s n="pers"/><s n="p2"/></l><r>we<s n="pl"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>तुम्ही<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="pl"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>तो<s n="prn"/><s n="pers"/><s n="p2"/></l><r>he<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>ती<s n="prn"/><s n="pers"/><s n="p2"/></l><r>she<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>ते<s n="prn"/><s n="pers"/><s n="p2"/></l><r>it<s n="sg"/><s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
@@ -52,7 +58,6 @@
     
 
     <!-- SECTION: Nouns -->
-
 
     <e><p><l>बाग<s n="n"/><s n="f"/></l><r>garden<s n="n"/></r></p></e>
     <e><p><l>कुत्रा<s n="n"/><s n="m"/></l><r>dog<s n="n"/></r></p></e>
@@ -82,24 +87,30 @@
     <e><p><l>काल<s n="n"/><s n="nt"/></l><r>yesterday<s n="n"/></r></p></e>
     <e><p><l>वातावरण<s n="n"/><s n="nt"/></l><r>weather<s n="n"/></r></p></e>
     <e><p><l>बाहेर<s n="n"/><s n="nt"/></l><r>outside<s n="n"/></r></p></e>
-    
+    <e><p><l>वर्ष<s n="n"/><s n="nt"/></l><r>year<s n="n"/></r></p></e>
+    <e><p><l>एकत्र<s n="n"/><s n="nt"/></l><r>together<s n="n"/></r></p></e>
+    <e><p><l>सध्या<s n="n"/><s n="nt"/></l><r>now<s n="n"/></r></p></e>
 
+    
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>राहुल<s n="np"/><s n="ant"/><s n="m"/></l><r>Rahul<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>काजल<s n="np"/><s n="ant"/><s n="f"/></l><r>Kajol<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
+    
     <!-- SECTION: Adjectives -->
     
     <e><p><l>छान<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
     <e><p><l>मोठा<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
     <e><p><l>जुना<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
+    <e><p><l>फार<s n="adj"/></l><r>much<s n="adj"/></r></p></e>
     <e><p><l>खूप<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
     <e><p><l>गरम<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
     <e><p><l>थंड<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
+    <e><p><l>लहान<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    
 
     <!-- SECTION: Adverbs -->
-
 
     <e><p><l>कुठे<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>तिथे<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
@@ -117,13 +128,30 @@
     <e><p><l>खाणे<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
     <e><p><l>शोधणे<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>संपणे<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
-    <e><p><l>शकणे<s n="vblex"/></l><r>able<s n="vblex"/></r></p></e>
+    <e><p><l>शकणे<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
     <e><p><l>आवडणे<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
 
       
     <!-- SECTION: Interjections -->
 
     <e><p><l>नाही<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
+
+    <!-- SECTION: Numbers -->
+    
+    <e><p><l>शून्य<s n="num"/></l><r>zero<s n="num"/></r></p></e> 
+    <e><p><l>एक<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>दोन<s n="num"/></l><r>two<s n="num"/></r></p></e>
+    <e><p><l>तीन<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>चार<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>पाच<s n="num"/></l><r>five<s n="num"/></r></p></e>
+    <e><p><l>सहा<s n="num"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>सात<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>आठ<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>नऊ<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>दहा<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+    <e><p><l>अकरा<s n="num"/></l><r>eleven<s n="num"/></r></p></e>
+    <e><p><l>बारा<s n="num"/></l><r>twelve<s n="num"/></r></p></e>
+    
 
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
