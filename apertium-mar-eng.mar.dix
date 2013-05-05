@@ -430,17 +430,17 @@
     </pardef>
 
     <pardef n="विचार/णे__vblex">
-      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="m"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="f"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="nt"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="f"/><s n="futr"/><s n="pres"/><s n="p3"/><s n="sp"/></r></p></e>   
+      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sp"/></r></p></e>   
     </pardef>
 
     <pardef n="आवड/णे__vblex">
-      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="m"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="f"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="nt"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="f"/><s n="futr"/><s n="pres"/><s n="p3"/><s n="sp"/></r></p></e>   
+      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sp"/></r></p></e>   
     </pardef>
 
     <!-- SECTION: Numerals -->
