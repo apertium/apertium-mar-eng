@@ -103,6 +103,8 @@
     
     <!-- SECTION: Adjectives -->
     
+    <e><p><l>फार<s n="adj"/></l><r>much<s n="adj"/></r></p></e>
+
     <e><p><l>छान<s n="adj"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>मोठा<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>जुना<s n="adj"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
@@ -110,9 +112,7 @@
     <e><p><l>गरम<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>थंड<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
 
-    <e><p><l>फार<s n="adj"/></l><r>much<s n="adj"/></r></p></e>
-
-    <e><p><l>लहान<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    <e><p><l>लहान<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
     
 
 

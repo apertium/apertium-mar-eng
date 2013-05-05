@@ -14,7 +14,10 @@
       <program name="lt-proc -b">
         <file name="mar-eng.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b -b">
+      <program name="lrx-proc">
+        <file name="mar-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-mar-eng.mar-eng.t1x"/>
         <file name="mar-eng.t1x.bin"/>
       </program>
