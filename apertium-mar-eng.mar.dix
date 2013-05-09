@@ -75,7 +75,8 @@
     <!-- SECTION: Interjections -->
 
     <pardef n="नाही/__ij">
-      <e><p><l></l><r><s n="ij"/></r></p></e>
+      <e><p><l></l><r><s n="ij"/><s n="sg"/></r></p></e>
+      <e><p>त<l></l><r><s n="ij"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -123,7 +124,7 @@
     </pardef> 
 
     <pardef n="तुम्ह/ी__prn_nt">
-      <e><p><l>ी</l><r>ी<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>ी</l><r>ी<s n="prn"/><s n="pers"/><s n="p2"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
     
     <!-- SECTION: Nouns -->
@@ -287,8 +288,35 @@
       <e><p><l>ींमधून</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ींमधे</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>    
     </pardef>
+ 
+   <pardef n="मेज__n_m"> 
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ावर</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ावरुन</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ाला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
 
-   
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ांवर</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ांवरुन</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ांना</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
+    </pardef>
+
+    <pardef n="खुर्च/ी__n_f"> 
+      <e><p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ीत</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ीतून</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>ाला</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+
+      <e><p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>्यात</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>्यांतून</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>्यांना</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>्यांना</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+    </pardef>
+
     <pardef n="आवाज__n_m"> 
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ात</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
@@ -417,15 +445,11 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
-    <pardef n="कुठे__adv">
-      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
-    </pardef>
-
     <!-- SECTION: Verbs -->
 
     <pardef n="आहे/__vbser">
       <e><p><l></l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>त</l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>आहेत</l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>होता</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>होते</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
@@ -506,6 +530,7 @@
     <e lm="उत्तर"><i>उत्तर</i><par n="घर__n_nt"/></e>
     <e lm="प्रश्न"><i>प्रश्न</i><par n="हात__n_m"/></e>
     <e lm="व्यक्ती"><i>व्यक्ती</i><par n="व्यक्ती__n_f"/></e>
+    <e lm="मेज"><i>मेज</i><par n="मेज__n_m"/></e>
     <e lm="आवाज"><i>आवाज</i><par n="आवाज__n_m"/></e>
     <e lm="पक्षी"><i>पक्ष</i><par n="पक्ष/ी__n_m"/></e>
     <e lm="प्राणी"><i>प्राण</i><par n="पक्ष/ी__n_m"/></e>
@@ -538,11 +563,12 @@
 
     <e lm="खूप"><i>खूप</i><par n="खूप__preadv"/></e>
 
-    <e lm="कुठे"><i>कुठे</i><par n="कुठे__adv"/></e>
+    <e lm="कुठे"><i>कुठे</i><par n="तिथे__adv"/></e>
 
     <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
     <e lm="सध्या"><i>सध्या</i><par n="तिथे__adv"/></e>
+    <e lm="मग"><i>मग</i><par n="तिथे__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
