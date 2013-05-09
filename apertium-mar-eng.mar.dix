@@ -75,8 +75,7 @@
     <!-- SECTION: Interjections -->
 
     <pardef n="नाही/__ij">
-      <e><p><l></l><r><s n="ij"/><s n="sg"/></r></p></e>
-      <e><p>त<l></l><r><s n="ij"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="ij"/></r></p></e>
     </pardef>
 
 
@@ -445,6 +444,10 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="कुठे__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Verbs -->
 
     <pardef n="आहे/__vbser">
@@ -563,7 +566,7 @@
 
     <e lm="खूप"><i>खूप</i><par n="खूप__preadv"/></e>
 
-    <e lm="कुठे"><i>कुठे</i><par n="तिथे__adv"/></e>
+    <e lm="कुठे"><i>कुठे</i><par n="कुठे__adv"/></e>
 
     <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
