@@ -132,6 +132,10 @@
     <e><p><l>सध्या<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>मग<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
     <e><p><l>एकत्र<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
+    <e><p><l>हळूहळू<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+    <e><p><l>चटकन<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
+    <e><p><l>काळजीपूर्वक<s n="adv"/></l><r>carefully<s n="adv"/></r></p></e>
+    
 
     <!--SECTION: Verbs -->
 
@@ -148,6 +152,8 @@
     <e><p><l>पळणे<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
     <e><p><l>लपणे<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>खेळणे<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>झोपणे<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+
     
       
     <!-- SECTION: Interjections -->

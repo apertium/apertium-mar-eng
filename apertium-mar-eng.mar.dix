@@ -492,6 +492,11 @@
     <pardef n="कुठे__adv">
       <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
     </pardef>
+    
+    <pardef n="चटकन__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Verbs -->
 
@@ -503,20 +508,33 @@
     </pardef>
 
     <pardef n="विचार/णे__vblex">
-      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="sp"/></r></p></e> 
-      <e><p><l>त</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ू</l><r>णे<s n="vblex"/><s n="pres"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p></e> 
+      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="nt"/><s n="sp"/></r></p></e> 
+      <e><p><l>त</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ू</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="sg"/></r></p></e> 
       <e><p><l>ायला</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="आवड/णे__vblex">
-      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sp"/></r></p></e>   
+      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="f"/><s n="sp"/></r></p></e>   
+    </pardef>
+
+    <pardef n="झोप/णे__vblex">
+      <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="futr"/><s n="pres"/><s n="nt"/><s n="sp"/></r></p></e> 
+      <e><p><l>त</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ू</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="sg"/></r></p></e> 
+      <e><p><l>ायला</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ला</l><r>णे<s n="vblex"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ली</l><r>णे<s n="vblex"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ले</l><r>णे<s n="vblex"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Numerals -->
@@ -629,6 +647,9 @@
     <e lm="मग"><i>मग</i><par n="तिथे__adv"/></e>एकत्र
     <e lm="एकत्र"><i>एकत्र</i><par n="तिथे__adv"/></e>
     <e lm="का"><i>का</i><par n="कुठे__adv"/></e>
+    <e lm="चटकन"><i>चटकन</i><par n="चटकन__adv"/></e>
+    <e lm="हळूहळू"><i>हळूहळू</i><par n="चटकन__adv"/></e>
+    <e lm="काळजीपूर्वक"><i>काळजीपूर्वक</i><par n="चटकन__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
@@ -645,6 +666,7 @@
     <e lm="पळणे"><i>पळ</i><par n="आवड/णे__vblex"/></e>
     <e lm="लपणे"><i>लप</i><par n="आवड/णे__vblex"/></e>
     <e lm="खेळणे"><i>खेळ</i><par n="विचार/णे__vblex"/></e>
+    <e lm="झोपणे"><i>झोप</i><par n="झोप/णे__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 
