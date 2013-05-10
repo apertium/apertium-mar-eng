@@ -36,6 +36,7 @@
 
 
     <sdef n="pers"    c="Personal"/>
+    <sdef n="impers"    c="Impersonal"/>
 
     <sdef n="FD"      c="Function to be determined"/>
   </sdefs>
@@ -58,7 +59,12 @@
     <e><p><l>आम्ही<s n="prn"/><s n="pers"/><s n="p1"/></l><r>we<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
     <e><p><l>तुम्ही<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>ते<s n="prn"/><s n="pers"/><s n="p3"/></l><r>they<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
-    
+    <e><p><l>त्याचा<s n="prn"/><s n="pers"/><s n="p3"/></l><r>his<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
+    <e><p><l>तिचा<s n="prn"/><s n="pers"/><s n="p3"/></l><r>her<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
+    <e><p><l>त्यांचा<s n="prn"/><s n="pers"/><s n="p3"/></l><r>their<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e> 
+
+    <e><p><l>काय<s n="prn"/><s n="impers"/><s n="itg"/></l><r>what<s n="prn"/><s n="impers"/><s n="itg"/></r></p></e>  
+    <e><p><l>कोण<s n="prn"/><s n="pers"/><s n="itg"/></l><r>who<s n="prn"/><s n="pers"/><s n="itg"/></r></p></e>    
 
     <!-- SECTION: Nouns -->
 
@@ -91,7 +97,7 @@
     <e><p><l>वातावरण<s n="n"/><s n="nt"/></l><r>weather<s n="n"/></r></p></e>
     <e><p><l>बाहेर<s n="n"/><s n="nt"/></l><r>outside<s n="n"/></r></p></e>
     <e><p><l>वर्ष<s n="n"/><s n="nt"/></l><r>year<s n="n"/></r></p></e>
-    <e><p><l>एकत्र<s n="n"/><s n="nt"/></l><r>together<s n="n"/></r></p></e>
+    
     
     
     <!-- SECTION: Proper nouns -->
@@ -107,11 +113,10 @@
     <e><p><l>छान<s n="adj"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>मोठा<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>जुना<s n="adj"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
-
     <e><p><l>गरम<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>थंड<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
-
     <e><p><l>लहान<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>आनंदी<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>   
     
 
 
@@ -119,10 +124,12 @@
 
     <e><p><l>खूप<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e>
     <e><p><l>कुठे<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>का<s n="adv"/><s n="itg"/></l><r>why<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>तिथे<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
     <e><p><l>नाही<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>सध्या<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>मग<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+    <e><p><l>एकत्र<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
 
     <!--SECTION: Verbs -->
 
@@ -135,7 +142,11 @@
     <e><p><l>संपणे<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>शकणे<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
     <e><p><l>आवडणे<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
-
+    <e><p><l>पाहणे<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>पळणे<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
+    <e><p><l>लपणे<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
+    <e><p><l>खेळणे<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    
       
     <!-- SECTION: Interjections -->
 
