@@ -427,6 +427,7 @@
       <e><p><l>्यांपुढे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
 
+
     <!-- SECTION: Proper nouns -->
 
     <pardef n="राम__np">
@@ -597,7 +598,8 @@
     <e lm="वर्ष"><i>वर्ष</i><par n="वर्ष__n"/></e>
     <e lm="पाणी"><i>पाण</i><par n="पाण/ी__n"/></e>
     <e lm="डोळा"><i>डोळ</i><par n="डोळ/ा__n_m"/></e>
-    <e lm="मुल"><i>मुल</i><par n="घर__n_nt"/></e> 
+    <e lm="मुल"><i>मुल</i><par n="घर__n_nt"/></e> चंद्र
+    <e lm="चंद्र"><i>चंद्र</i><par n="मेज__n_m"/></e>
 
     <!-- SECTION: Proper nouns -->
 
