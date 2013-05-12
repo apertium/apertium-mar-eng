@@ -28,7 +28,10 @@
     <sdef n="p2"      c="2nd person"/>
     <sdef n="p3"      c="3rd person"/>
 
-    <sdef n="num"      c="numbers"/>
+    <sdef n="num"     c="Numeral"/>
+
+    <sdef n="tv"      c="Transitive"/>
+    <sdef n="iv"      c="Intransitive"/>
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="itg"     c="Interrogative"/>
@@ -144,7 +147,7 @@
     <e><p><l>मोजणे<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
     <e><p><l>करणे<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
     <e><p><l>खाणे<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
-    <e><p><l>शोधणे<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>शोधणे<s n="vblex"/><s n="tv"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>संपणे<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>शकणे<s n="vblex"/></l><r>can<s n="vblex"/></r></p></e>
     <e><p><l>आवडणे<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
