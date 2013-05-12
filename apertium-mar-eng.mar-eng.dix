@@ -17,6 +17,9 @@
     <sdef n="adj"     c="Adjective . विशेषण"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="pr"      c="Preposition"/>
+
     <sdef n="m"       c="Masculine · पु:लिंग"/>
     <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
     <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
@@ -51,6 +54,10 @@
     <e><p><l>पण<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>कडे<s n="cnjcoo"/></l><r>with<s n="cnjcoo"/></r></p></e>
     <e><p><l>किंवा<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+
+    <!-- SECTION: Postpositions --> 
+
+    <e><p><l>समोर<s n="post"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 

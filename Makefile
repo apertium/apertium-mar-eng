@@ -5,6 +5,7 @@ all:
 	lt-comp rl apertium-mar-eng.mar-eng.dix eng-mar.autobil.bin
 	lt-comp lr apertium-mar-eng.post-eng.dix mar-eng.autopgen.bin
 	lrx-comp apertium-mar-eng.mar-eng.lrx mar-eng.autolex.bin
+	cg-comp apertium-mar-eng.mar-eng.rlx mar-eng.rlx.bin
 	apertium-preprocess-transfer apertium-mar-eng.mar-eng.t1x mar-eng.t1x.bin
 	apertium-preprocess-transfer apertium-mar-eng.mar-eng.t2x mar-eng.t2x.bin
 	apertium-preprocess-transfer apertium-mar-eng.mar-eng.t3x mar-eng.t3x.bin
